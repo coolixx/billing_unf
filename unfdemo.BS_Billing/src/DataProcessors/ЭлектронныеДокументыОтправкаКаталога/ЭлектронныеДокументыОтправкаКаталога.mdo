@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f7e5de4c-9420-486b-9c55-4343235f2dac" extendedConfigurationObject="5a73e935-4e64-4557-bb8a-f08894c29f16">
+  <producedTypes>
+    <objectType typeId="a7812f93-0e31-44c0-9172-7aebfe94e860" valueTypeId="1be3abef-849e-4ee5-8fa7-a8b31a66bb0b"/>
+    <managerType typeId="371cdf76-a768-4af3-8054-012f60d3e2b0" valueTypeId="a03490aa-7122-4538-bae7-3e4163a931ee"/>
+  </producedTypes>
+  <name>ЭлектронныеДокументыОтправкаКаталога</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <commands uuid="1e2059e3-c519-4336-9ee1-1e798b839779" extendedConfigurationObject="86124699-a156-477b-8375-b2287b554fb4">
+    <name>ЗагрузкаДанныхКонтрагента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <group>Checked</group>
+    </extension>
+    <group>FormNavigationPanelSeeAlso</group>
+  </commands>
+</mdclass:DataProcessor>

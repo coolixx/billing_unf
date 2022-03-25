@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="161847b9-6b9e-4464-9cff-a7053f3d847c">
+  <producedTypes>
+    <objectType typeId="a85ceeed-b87d-4c0f-981d-36f24bce6850" valueTypeId="ca691dc4-635e-4ac9-bad6-c82c34630f10"/>
+    <refType typeId="44ab10c7-0365-4885-aca0-012aa4f1e40b" valueTypeId="e64f1981-5256-49b4-be95-f6283e47487e"/>
+    <selectionType typeId="d74f3952-720e-4098-a6ac-d437bb667564" valueTypeId="94ec0626-a17b-438e-8d48-08289ad2d192"/>
+    <listType typeId="4ba99d98-f9dd-48a2-8f76-0b25cab30bf0" valueTypeId="f827f1cd-c898-4f0b-acd1-f07e6537ec86"/>
+    <managerType typeId="a209f0f5-eb8d-4fa2-b301-270a95ea2260" valueTypeId="5f7c2a3f-1810-434b-be54-35d15403d131"/>
+  </producedTypes>
+  <name>BS_НастройкиБиллинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки биллинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.BS_НастройкиБиллинга.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.BS_НастройкиБиллинга.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.BS_НастройкиБиллинга.Form.ФормаЗаписи</defaultObjectForm>
+  <defaultListForm>Catalog.BS_НастройкиБиллинга.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="52db77db-e979-4a86-9238-fa629aa14e3b">
+    <name>Token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9313e27e-bc4e-4d7c-844f-44c2bd0b0bfc">
+    <name>ВидОблачногоСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид облачного сервиса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.BS_ВидыОблачныхСервисов1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e301474-3e64-4e97-9fcb-7d819307e4b4">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4cca7e9d-ed75-4d6b-8560-f809631c95fb">
+    <name>ИдентификаторРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор регламентного задания</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1f481e3-43e6-4d75-8018-ecba42b57eb9">
+    <name>ШаблонСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон сообщения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="439d1546-e4ee-45d0-bbd8-482e5394a0b5">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49fb8eb9-b35a-4b0d-87cc-a72e4cd7ad5e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

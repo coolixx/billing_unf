@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b9abac2-453d-4294-b629-1b6cdd71ee92">
+  <producedTypes>
+    <managerType typeId="b906dbab-c378-4e11-b923-90b5dbd06172" valueTypeId="8e7359b0-b65b-43cc-8d67-b046edd62d9c"/>
+    <valueManagerType typeId="420e8d82-1b5c-4893-ade9-13947a9e85b7" valueTypeId="32e8444d-ee7f-43a5-8713-3a249c241555"/>
+    <valueKeyType typeId="3188f911-dfc1-4c21-8220-cdf5bf105442" valueTypeId="5d1ef5a5-14db-4313-aa52-1a8e36eec985"/>
+  </producedTypes>
+  <name>bs_token</name>
+  <synonym>
+    <key>ru</key>
+    <value>Token</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

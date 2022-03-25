@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bcb6e9f-77b2-4499-b1f6-fa6333dc533e">
+  <producedTypes>
+    <selectionType typeId="4366d0a4-ad70-4630-a30b-b3c04925f20a" valueTypeId="70b6a424-1e1b-4e0c-be4a-7004da824b94"/>
+    <listType typeId="9b0fbcb1-5f82-4671-a6af-1336e47e891f" valueTypeId="4f54c5ca-994d-427e-901c-4b0d3e9d7cf3"/>
+    <managerType typeId="3dc77116-8f5d-423b-8912-48afe491f010" valueTypeId="581b5385-fc5b-43cc-bfbe-12fb763b281c"/>
+    <recordSetType typeId="79e0ddcc-c230-4b2f-8ab0-9eb189127add" valueTypeId="fdfc7218-a53d-41d3-be9d-3a38c5787bf9"/>
+    <recordKeyType typeId="7af156a0-84df-4a7d-beb9-65ab84838027" valueTypeId="ef88dcbf-2b69-4877-9ed7-0c791cfc55e8"/>
+    <recordType typeId="bc290614-0205-45d7-b795-b4f850d8c5db" valueTypeId="5647b18e-4808-430f-a643-a1764d401451"/>
+    <recordManagerType typeId="b7aa3cb6-ac16-4d00-9df1-763f3b396f19" valueTypeId="d1588b0a-906c-4aa5-944f-670800c017ff"/>
+  </producedTypes>
+  <name>BS_КонтрагнетыОблачногоСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагнеты облачного сервиса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.BS_КонтрагнетыОблачногоСервиса.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="471746be-7bc1-4771-ae83-875a91d906c4">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cf6a8ff6-febc-42da-84bd-c1a5eb1069cb">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="1bb60354-1668-4301-8a1e-6818b31a2922">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e318e838-b630-484c-9c32-7038ca7b07c8">
+    <name>НастройкаБиллинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка биллинга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.BS_НастройкиБиллинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="efa0a374-c97c-46b4-94f1-7e6370ea88be">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

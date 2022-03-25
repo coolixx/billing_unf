@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="26017a5c-8282-4afc-bb91-ed149c04dccb" extendedConfigurationObject="401c0c14-766c-49a6-abf1-dd5886eba9f9">
+  <producedTypes>
+    <refType typeId="68ca4e2d-af23-44cb-88a3-87615997d2e2" valueTypeId="fe3d33b5-045d-4734-bafa-eb11b97709b9"/>
+    <listType typeId="048183ff-a71e-4432-b83a-d981393f99c2" valueTypeId="bc411b46-a65a-4ffb-af3a-a7ad05fd83e9"/>
+    <managerType typeId="46b58752-6c07-4005-b3d8-66b6d51e125d" valueTypeId="e31390df-ea4d-45bf-8ee2-4dfe9b95570a"/>
+  </producedTypes>
+  <name>ВидыГосударственныхОрганов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

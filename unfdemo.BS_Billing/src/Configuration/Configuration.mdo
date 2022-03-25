@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d617f56-0c36-4ed1-b365-a53b86cfd887">
+  <name>unfdemo.BS_Billing</name>
+  <synonym>
+    <key>ru</key>
+    <value>БиллингГРМ</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e5606f64-950e-4ee5-9568-be83d31b5a57"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="74e81db5-babd-40dd-b35e-236d0a84dd2c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8b148fa1-2195-4189-89df-4409d504630c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="22db401a-a15f-4dc2-929d-e8156ffe4525"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="209eb1b9-bfa7-4656-ba5f-424b802a988a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a49df9f1-725f-4b3e-a40b-ccf4007906d4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9b1ef7fd-6173-44e3-b724-9d9b0f8c3d09"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>BS_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="069ed3cd-ada2-4a55-8b29-3491c3443395">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.BS_БиллингГРМ</subsystems>
+  <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.КрасныйТекстСтрок</styleItems>
+  <commonPictures>CommonPicture.QRКодИконкаМЛК</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.ИсторияИзменений</commonPictures>
+  <commonPictures>CommonPicture.КнопкаВыпадающегоСписка</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.РазорватьСвязь</commonPictures>
+  <commonPictures>CommonPicture.УстановитьСвязь</commonPictures>
+  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.BS_БиллингВызовСервера</commonModules>
+  <commonModules>CommonModule.BS_БиллингКлиентСервер</commonModules>
+  <commonModules>CommonModule.bs_ОбработкаРезультатаВызовСервера</commonModules>
+  <commonModules>CommonModule.BS_ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.BS_ОбщегоНазначенияВызовСервераПовтИсп</commonModules>
+  <commonModules>CommonModule.bs_РаботаСAPI</commonModules>
+  <commonModules>CommonModule.bs_РаботаСAPIВызовСервера</commonModules>
+  <commonModules>CommonModule.bs_работаСAPIКлиент</commonModules>
+  <commonModules>CommonModule.BS_РегистрацияОбъектовБиллингаВызовСервера</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
+  <commonCommands>CommonCommand.BS_НастройкиБиллинга</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
+  <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьПоЭлектроннойПочте</commonCommands>
+  <commonCommands>CommonCommand.СоздатьЗадачуСотрудника</commonCommands>
+  <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <constants>Constant.bs_token</constants>
+  <catalogs>Catalog.BS_НастройкиБиллинга</catalogs>
+  <catalogs>Catalog.bs_СервисыКонтрагента</catalogs>
+  <catalogs>Catalog.BS_СписокСервисов</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыСкидокНаценок</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ВидыЦенКонтрагентов</catalogs>
+  <catalogs>Catalog.ГруппыДоступаКонтрагентов</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.ИсточникиПривлеченияПокупателей</catalogs>
+  <catalogs>Catalog.КатегорииДоговоров</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.НаправленияДеятельности</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.ТарифныеПланыДоговоровОбслуживания</catalogs>
+  <catalogs>Catalog.ШаблоныСообщений</catalogs>
+  <documents>Document.ПоступлениеВКассу</documents>
+  <documents>Document.ПоступлениеНаСчет</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <enums>Enum.BS_ВидыОблачныхСервисов1С</enums>
+  <enums>Enum.БиллингПериодичностьДоговораОбслуживания</enums>
+  <enums>Enum.ВариантыВыбытияМаркируемойПродукции</enums>
+  <enums>Enum.ВидыГосударственныхОрганов</enums>
+  <enums>Enum.ВидыДоговоров</enums>
+  <enums>Enum.ВидыКонтрагентов</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ПризнакиАгента</enums>
+  <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
+  <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
+  <enums>Enum.СпособыРасчетаКомиссионногоВознаграждения</enums>
+  <dataProcessors>DataProcessor.bs_Заполнение</dataProcessors>
+  <dataProcessors>DataProcessor.ЭлектронныеДокументыОтправкаКаталога</dataProcessors>
+  <informationRegisters>InformationRegister.BS_ЗарегистрированныеОбъектыБиллинга</informationRegisters>
+  <informationRegisters>InformationRegister.BS_КонтрагнетыОблачногоСервиса</informationRegisters>
+  <informationRegisters>InformationRegister.BS_ТокеныПодключений</informationRegisters>
+</mdclass:Configuration>

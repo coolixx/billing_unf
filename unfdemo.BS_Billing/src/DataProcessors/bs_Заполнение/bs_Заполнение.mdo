@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e2f8804-b004-4f30-a65a-e38e25e6201a">
+  <producedTypes>
+    <objectType typeId="1f974772-9493-46c0-92f2-1618b12038c5" valueTypeId="9a9f2b86-25eb-4b34-9840-a394d48477b0"/>
+    <managerType typeId="59c1b7de-43a4-4fca-aae6-2e52ab62fe86" valueTypeId="8f497e44-cd87-4773-9fa0-a8658cd72e3b"/>
+  </producedTypes>
+  <name>bs_Заполнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить основные настройки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.bs_Заполнение.Form.Форма</defaultForm>
+  <attributes uuid="39884cef-6d5b-4dc4-9129-18bad9beb97e">
+    <name>token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Token</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="990d5f86-1aca-4fd3-a988-a91dd47d3307">
+    <producedTypes>
+      <objectType typeId="b7a9acdc-f136-48df-89c8-fac7cb00d2fc" valueTypeId="13ec8bed-0920-4c03-9abd-afb8c2231253"/>
+      <rowType typeId="6d77b464-0683-42b2-b528-33673c41c16f" valueTypeId="9c90dcb0-76fc-42ad-873a-5a22efe8474f"/>
+    </producedTypes>
+    <name>Контргаенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контргаенты</value>
+    </synonym>
+    <attributes uuid="1983b694-a7aa-4dd2-abcf-d0a4acb0abd9">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c7deaab5-2b96-46b9-96bf-eaa5e1c276b3">
+      <name>id</name>
+      <synonym>
+        <key>ru</key>
+        <value>Id</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="621d377c-9397-44b9-82fb-9144ae753d0b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ae7de8b5-a9f3-482d-b058-6cdbd4efb37b" extendedConfigurationObject="c795f138-5310-458a-9eb0-b92a90fdd900">
+  <producedTypes>
+    <refType typeId="83e9d529-793b-459d-924e-9d6297ede085" valueTypeId="a3613490-cd68-40d8-8d45-854ce0642ca8"/>
+    <listType typeId="e6def8a1-275e-4b8a-afb7-22b41cf5aa67" valueTypeId="bf235a50-9130-4b79-a7a2-e54bc6cd0850"/>
+    <managerType typeId="6de84cb8-89c2-4ae4-9c10-9d5f5d6c48bf" valueTypeId="f85d0c71-f6e2-4762-99cb-7ad7e9fec470"/>
+  </producedTypes>
+  <name>СпособыРасчетаКомиссионногоВознаграждения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

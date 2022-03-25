@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="303c8c47-b459-436b-afc5-496cb01153c4">
+  <producedTypes>
+    <selectionType typeId="31e05fe6-1bd4-4530-ab0e-7d8d3fe2f5b1" valueTypeId="635cf156-32de-465a-8693-0b69b9950917"/>
+    <listType typeId="6caf24d4-c033-4a01-9e95-092bcfc7432e" valueTypeId="0a773627-90ec-473a-81a2-61d2d6d681d3"/>
+    <managerType typeId="0c936579-ddb9-4af7-90d3-60460326c2f8" valueTypeId="374915f5-66c6-4a11-b2cc-9f417e4858fb"/>
+    <recordSetType typeId="ed2da448-6f37-43a2-bcc7-05f0f0652280" valueTypeId="92825631-eae1-45a5-be41-539447ecb37b"/>
+    <recordKeyType typeId="4800e0a7-3616-498a-9d3a-596244ddc382" valueTypeId="11ef96cf-dfa5-4246-a2d2-0fc727a2ffcc"/>
+    <recordType typeId="0f36c251-ab0c-4190-a20c-c3f973777590" valueTypeId="47fcf82e-394d-4188-bf33-6acb690b0c36"/>
+    <recordManagerType typeId="abac908e-9ca8-4f11-b92c-2c7c34cdd6d7" valueTypeId="5fa33a51-a107-4f63-91ac-4194c0ca84f5"/>
+  </producedTypes>
+  <name>BS_ТокеныПодключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токены подключений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d231e78c-5840-4647-83b8-8cb00c1a2664">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a0069ec8-1009-44d1-a749-a52bfa9e9cbc">
+    <name>НастройкаБиллинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка биллинга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.BS_НастройкиБиллинга</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

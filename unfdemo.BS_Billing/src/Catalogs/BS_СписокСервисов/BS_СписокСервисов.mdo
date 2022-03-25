@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d819f84-e506-4cad-a1e8-6d77849cfbb6">
+  <producedTypes>
+    <objectType typeId="660060c7-6469-4504-a981-e102daab4042" valueTypeId="52fc9ca9-9943-4263-b8b2-7d006222d526"/>
+    <refType typeId="854844dc-5d98-4c7f-8918-d05be54ed22f" valueTypeId="f904a3d3-f716-4c96-8380-a4dc11701867"/>
+    <selectionType typeId="513aa9a2-6353-4c92-9bb4-f9650ce15d7e" valueTypeId="62224d12-6c66-47bc-b9f1-98dcc3ad4124"/>
+    <listType typeId="9090b908-7c52-4fc2-a0d6-d667fee78845" valueTypeId="434396bd-1b49-4fc1-b368-b130d839b45f"/>
+    <managerType typeId="00c7d226-cb7b-4c3b-aec5-363e657bff9e" valueTypeId="54e5cf4e-0df7-4969-8931-61ed5db7f8eb"/>
+  </producedTypes>
+  <name>BS_СписокСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список сервисов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.BS_СписокСервисов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.BS_СписокСервисов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Доступный сервис</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список сервисов</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="7ad29fdd-6e0f-4c7b-94c8-d78e4df4e106">
+    <producedTypes>
+      <objectType typeId="84f4ef30-a151-460e-869e-1d4f542ca956" valueTypeId="b546fade-79e4-4c7a-86de-a64aff9d88f4"/>
+      <rowType typeId="603a07e6-ca0f-40d4-b792-8a42cbb57683" valueTypeId="7b4f09f3-6473-48f8-9077-dac2eef66c25"/>
+    </producedTypes>
+    <name>bs_kits</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты</value>
+    </synonym>
+    <attributes uuid="edac3c2f-b120-4fab-965c-cb30665b566d">
+      <name>bs_id</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="741b1bcf-0c05-4c36-8cc1-58d4174177f0">
+      <name>bs_Вариант</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вариант</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83d2c727-f679-4694-b9dd-488a3d717c01">
+      <name>bs_max</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимум пользователей</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3ad98f0e-7fb0-4339-b836-77a4de2cc392">
+      <name>bs_min</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимум пользователей</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

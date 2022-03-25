@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a88a4469-8d19-4f8b-9457-a1ee389fa634" extendedConfigurationObject="2779725f-0b43-430d-b275-f2432508f05d">
+  <producedTypes>
+    <objectType typeId="26e5564e-062c-45aa-8488-fc938abe27c9" valueTypeId="4063a0d3-ccab-4c2a-ad20-7f7b63c39c0f"/>
+    <refType typeId="f5a62740-ae01-47c2-9d25-be486daf551f" valueTypeId="8db964f2-0a00-45af-b1c9-ce7d66cf2e63"/>
+    <selectionType typeId="2f9d5834-cac0-4414-8067-266e7bf28e64" valueTypeId="90179cfd-4b80-494c-bf06-7f0db9d78439"/>
+    <listType typeId="a9eb06b2-c67f-40c1-a334-4d54f9b54018" valueTypeId="e90ac007-feb2-45d4-9b3b-09ea4ce8674e"/>
+    <managerType typeId="f28bdc63-d838-4a1e-8e9c-37e2a70c28c7" valueTypeId="48e6613a-0146-475e-970f-84663f8c89f6"/>
+  </producedTypes>
+  <name>ПоступлениеВКассу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="b3fd1cd1-7ace-4b93-a9c0-30af6bac7f02" extendedConfigurationObject="e17ac031-94ad-4811-9349-12c6556820df">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

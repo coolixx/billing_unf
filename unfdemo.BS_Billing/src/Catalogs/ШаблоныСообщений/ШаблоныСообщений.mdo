@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="788b2709-e550-49ad-8bb9-d926a505510d" extendedConfigurationObject="71824d07-25c6-4519-bcf6-e55dbd4f5744">
+  <producedTypes>
+    <objectType typeId="feee968e-8d26-4750-b88e-fd99eb5874fe" valueTypeId="7e7847ed-12e4-48d6-891b-b5c5351f54f1"/>
+    <refType typeId="49019bcd-a5be-4c0c-9598-76fc2120c523" valueTypeId="91cae926-54a7-46fe-8840-a56182f978ca"/>
+    <selectionType typeId="7f008189-8920-4919-a622-c0d619f52eb8" valueTypeId="d62c01e1-2f6e-46d6-b8c8-af7b16d69386"/>
+    <listType typeId="b0a5eb60-40ad-42d4-bbf9-304f284ba219" valueTypeId="c4481697-281c-441a-90df-d57eff96bcde"/>
+    <managerType typeId="f9058090-8d88-4ec8-82ee-ce062845c277" valueTypeId="f4c596d0-6d52-4aa8-9e28-842fdf1efae6"/>
+  </producedTypes>
+  <name>ШаблоныСообщений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

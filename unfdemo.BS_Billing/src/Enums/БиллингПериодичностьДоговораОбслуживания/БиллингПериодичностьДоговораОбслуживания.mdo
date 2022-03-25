@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe50fc84-7acc-4c7c-886a-454e067d7b38" extendedConfigurationObject="7af8caae-24f1-4070-a6c9-fd15ee6ccf76">
+  <producedTypes>
+    <refType typeId="a3b9b344-6c09-4ba0-8448-d0997842d07d" valueTypeId="c94b496b-06b0-49a2-a7ee-c5659ddfa248"/>
+    <listType typeId="64a8e78c-aeba-482f-95f8-d493abc7425a" valueTypeId="258ee20d-158e-4c9e-91a5-884536c2c9de"/>
+    <managerType typeId="449be213-0776-4f12-93ab-eb7ce97b7e82" valueTypeId="aa17f98b-bcd8-42c6-bfe4-87e9325a7991"/>
+  </producedTypes>
+  <name>БиллингПериодичностьДоговораОбслуживания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

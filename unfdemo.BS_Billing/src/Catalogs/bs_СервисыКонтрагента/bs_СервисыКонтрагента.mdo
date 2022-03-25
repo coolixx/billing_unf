@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35ebc10e-2397-4aac-8090-c17bfc64a2e5">
+  <producedTypes>
+    <objectType typeId="0ed7afc8-cc94-493f-a0d2-d91e2a760530" valueTypeId="3bdde991-90f0-408c-88f3-4785060e60f9"/>
+    <refType typeId="95ef1cf6-601c-4f9f-a660-5539d680b728" valueTypeId="f4ebd71b-b3b9-4060-b231-3641daab75a7"/>
+    <selectionType typeId="386a062a-ddca-47fb-a73a-0e4fcdf04e5b" valueTypeId="cd4751ba-aae0-40a7-82f7-90919d25c672"/>
+    <listType typeId="7e9f9e2a-4c7a-4225-bf0a-97a3757bd6cd" valueTypeId="a2c63ac2-2fd4-4cbb-957e-2fee1677f9a3"/>
+    <managerType typeId="559dcae8-ec05-4ca0-bf48-dd47b3670819" valueTypeId="29a71332-c126-491d-b3d0-e67566783baa"/>
+  </producedTypes>
+  <name>bs_СервисыКонтрагента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервисы контрагента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.bs_СервисыКонтрагента.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.bs_СервисыКонтрагента.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сервис контрагента</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>50</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

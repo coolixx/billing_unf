@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3a3e3b8-193b-4f64-aa3d-4ca9a4e6f48e">
+  <producedTypes>
+    <refType typeId="19815a12-8d85-4be2-90fe-9948cf3b9a6d" valueTypeId="52855415-f5ad-4842-b44f-035dc4e50726"/>
+    <listType typeId="5f48e875-9189-4146-967c-7cf7906e5026" valueTypeId="838acf20-3a43-4d9e-8f99-9bae8f276400"/>
+    <managerType typeId="713ab1c4-56aa-4291-b910-5c4c736dc9b3" valueTypeId="b339e882-f690-40ce-b3c7-fe414ddae7e4"/>
+  </producedTypes>
+  <name>BS_ВидыОблачныхСервисов1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды облачных сервисов 1С</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c4eb2e0f-aed2-4c7b-9d1f-d4cc1c51b927">
+    <name>ГотовоеРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С: ГРМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a51b748-a7f5-4c1d-9af4-35a4839515a1">
+    <name>Фреш</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С: Фреш</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d6bf42e-f547-4d6f-926a-733c78ce7fc9">
+  <name>BS_НастройкиБиллинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки биллинга контрагентов</value>
+  </synonym>
+  <group>NavigationPanelImportant</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

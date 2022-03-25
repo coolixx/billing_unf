@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e1b00fa-528e-456a-8b33-6c84295ede98">
+  <producedTypes>
+    <selectionType typeId="deeffc94-d91e-4ebf-bfda-bfc66be62ea5" valueTypeId="750e37cb-545d-4183-95de-18ddea812551"/>
+    <listType typeId="cdea71a4-ce60-4f45-90e6-e40e6a352b81" valueTypeId="df6ee3ed-85f3-4a06-9a7e-23c95ea8cb50"/>
+    <managerType typeId="caf336b1-dfcf-4407-bd9a-395c04e54c8b" valueTypeId="8dd875b8-e47a-4a96-ae8b-46b1c4f1de86"/>
+    <recordSetType typeId="db9b6b76-23a3-465e-86a6-3ce9f9d73dcc" valueTypeId="d274617a-385a-43ec-b3ff-021eb4b9d55d"/>
+    <recordKeyType typeId="cfa8a370-ed47-4e49-b9dc-795c0975bd3e" valueTypeId="0673a9ea-6060-423e-ae54-84fc4e3809db"/>
+    <recordType typeId="04f0ad3c-c277-462d-93b9-8420d42294c4" valueTypeId="a1d9aa80-4bb3-476d-81d9-d076e1dfe3b9"/>
+    <recordManagerType typeId="7c42b4f5-95df-4dfc-afe4-4b731cb8495e" valueTypeId="5aa38047-30ec-427f-a5f1-d3e49f18f96d"/>
+  </producedTypes>
+  <name>BS_ЗарегистрированныеОбъектыБиллинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрированные объекты биллинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fb0c87ed-d762-43cb-8d63-6081153f63eb">
+    <name>СрокОплатыПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок оплаты от покупателя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1ba6927b-df39-4ad8-8e97-b1a1d923813d">
+    <name>ДатаОстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата остановки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="27f9bc5b-a32b-41fb-bc89-0587de29bcc3">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СчетНаОплату</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
