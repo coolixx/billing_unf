@@ -90,6 +90,7 @@
   <catalogs>Catalog.СтатьиДвиженияДенежныхСредств</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.ТарифныеПланыДоговоровОбслуживания</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>
   <documents>Document.ПоступлениеВКассу</documents>
   <documents>Document.ПоступлениеНаСчет</documents>
