@@ -13,6 +13,11 @@
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <objectModule>Extended</objectModule>
   </extension>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <attributes uuid="b3fd1cd1-7ace-4b93-a9c0-30af6bac7f02" extendedConfigurationObject="e17ac031-94ad-4811-9349-12c6556820df">
     <name>ДокументОснование</name>
     <objectBelonging>Adopted</objectBelonging>

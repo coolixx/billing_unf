@@ -7,8 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.BS_СписокСервисов</content>
-  <content>DataProcessor.bs_Заполнение</content>
   <content>Catalog.bs_СервисыКонтрагента</content>
   <content>CommonCommand.BS_НастройкиБиллинга</content>
+  <content>InformationRegister.BS_ЗарегистрированныеОбъектыБиллинга</content>
 </mdclass:Subsystem>

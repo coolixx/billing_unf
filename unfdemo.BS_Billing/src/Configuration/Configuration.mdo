@@ -70,7 +70,6 @@
   <commonCommands>CommonCommand.ОтправитьПоЭлектроннойПочте</commonCommands>
   <commonCommands>CommonCommand.СоздатьЗадачуСотрудника</commonCommands>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
-  <constants>Constant.bs_token</constants>
   <catalogs>Catalog.BS_НастройкиБиллинга</catalogs>
   <catalogs>Catalog.bs_СервисыКонтрагента</catalogs>
   <catalogs>Catalog.BS_СписокСервисов</catalogs>
@@ -106,7 +105,6 @@
   <enums>Enum.СпособыЗаполненияСтавкиНДС</enums>
   <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
   <enums>Enum.СпособыРасчетаКомиссионногоВознаграждения</enums>
-  <dataProcessors>DataProcessor.bs_Заполнение</dataProcessors>
   <dataProcessors>DataProcessor.ЭлектронныеДокументыОтправкаКаталога</dataProcessors>
   <informationRegisters>InformationRegister.BS_ЗарегистрированныеОбъектыБиллинга</informationRegisters>
   <informationRegisters>InformationRegister.BS_КонтрагнетыОблачногоСервиса</informationRegisters>
